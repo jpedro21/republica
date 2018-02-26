@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.app.ubox.republica.dto.UsuarioDto;
+import com.app.ubox.republica.service.UsuarioService;
 
 @RestController
 @RequestMapping("/user")
