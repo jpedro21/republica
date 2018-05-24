@@ -14,8 +14,8 @@ public class Vaga {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private List<Usuario> listUsuario;
-	private Residencia redidencia;
+//	private List<Usuario> listUsuario;
+//	private Residencia redidencia;
 	private Integer qtdVagas;
 	private Sexo prefSexo;
 	private BigDecimal valor;
@@ -26,18 +26,18 @@ public class Vaga {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public List<Usuario> getListUsuario() {
-		return listUsuario;
-	}
-	public void setListUsuario(List<Usuario> listUsuario) {
-		this.listUsuario = listUsuario;
-	}
-	public Residencia getRedidencia() {
-		return redidencia;
-	}
-	public void setRedidencia(Residencia redidencia) {
-		this.redidencia = redidencia;
-	}
+//	public List<Usuario> getListUsuario() {
+//		return listUsuario;
+//	}
+//	public void setListUsuario(List<Usuario> listUsuario) {
+//		this.listUsuario = listUsuario;
+//	}
+//	public Residencia getRedidencia() {
+//		return redidencia;
+//	}
+//	public void setRedidencia(Residencia redidencia) {
+//		this.redidencia = redidencia;
+//	}
 	public Integer getQtdVagas() {
 		return qtdVagas;
 	}
